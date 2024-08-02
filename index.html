@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@100..800&display=swap" rel="stylesheet">
+  <title>Sparta Coding Club | Bootstrap Practice</title>
+  <style>
+
+    *{
+        font-family: "Trispace", sans-serif;
+    }
+    .container-hero{
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./pia11709-pluto-heart-1920x640-1.webp');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 100%;
+        height: 250px;
+    }
+
+    .add-comment{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 0px 0px 3px 0px gray;
+        margin: 20px auto 0px auto;
+        width: 95%;
+        max-width: 500px;
+    }
+
+    .show-comments{
+         display: flex;
+        flex-direction: column;
+        
+        margin: 20px auto 0px auto;
+        width: 95%;
+        max-width: 500px;
+    }
+    .card{
+        margin-bottom: 10px;
+    }
+
+    .card p{
+        color: gray;
+    }
+  </style>
+</head>
+
+<body>
+    <div class="container-hero">
+        <h1>PLUTO FAN PAGE</h1>
+    </div>
+
+    <div class="add-comment">
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Nickname</label>
+          </div>
+
+          <div class="mb-3">
+           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Fan Message"></textarea>
+          </div>
+          <div>
+            <button type="button" class="btn btn-dark">Leave a fan message</button>
+
+          </div>
+    </div>
+
+    <div class="show-comments">
+        <div class="card">
+            <div class="card-body">
+              We still miss you 😿.
+              <p>-Breadboy900</p>
+            </div>
+          </div>
+        <div class="card">
+            <div class="card-body">
+              Gone too soon 🕊️
+              <p>-ClassicWonder19</p>
+            </div>
+          </div>
+        <div class="card">
+            <div class="card-body">
+              Always a planet in our hearts 🌌
+              <p>-Wonderbread10</p>
+            </div>
+          </div>
+    </div>
+</body>
+
+</html>
